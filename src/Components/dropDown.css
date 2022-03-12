@@ -1,0 +1,301 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dropBar{
+
+    height: 10vh;
+    max-width: 100vw;
+    background: #fff;
+    border: 2px solid black;
+}
+
+.dropUl{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.dropulDiv{
+
+    height: 7.5vh;
+    width: 70%;
+    /* border: 2px solid black; */
+    margin-top: 4vh;
+    margin-left: 5vh;
+
+}
+.dropHome1{
+    position: relative;
+}
+
+.dropMenu1{
+
+    height: 15vh;
+    width: 14vw;
+    border: 1px solid rgb(202, 195, 195);
+    background: #ffffff;
+    margin-left: -2vw;
+    visibility: hidden;
+    margin-top:10vh;
+    position: absolute;
+    transition: all 0.34s;
+
+}
+
+.dropHome1:hover .dropMenu1{
+    visibility: visible;
+    margin-top: 4vh;
+}
+
+.dropUl1{
+
+    list-style: none;
+    
+}
+
+.dropli1{
+
+    border-bottom: 1px solid rgb(199, 208, 214); 
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.dropli2{
+
+    /* border-bottom: 1px solid rgb(199, 208, 214); */
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+
+}
+
+.dropShop1{
+
+    position: relative;
+}
+
+.dropMenu2{
+
+    height: 45vh;
+    width: 14vw;
+    border: 1px solid rgb(202, 195, 195);
+    background: #ffffff;
+    margin-left: -2vw;
+    visibility: hidden;
+    margin-top: 10vh;
+    position: absolute;
+    transition: all 0.34s;
+
+}
+
+.dropShop1:hover .dropMenu2{
+    visibility: visible;
+    margin-top: 4vh;
+}
+
+.dropPage1{
+
+    position: relative;
+}
+
+.dropMenu3{
+
+    height: 114vh;
+    width: 14vw;
+    border: 1px solid rgb(202, 195, 195);
+    background: #ffffff;
+    margin-left: -2vw;
+    visibility: hidden;
+    margin-top: 10vh;
+    position: absolute;
+    transition: all 0.34s;
+
+}
+
+.dropPage1:hover .dropMenu3{
+    visibility: visible;
+    margin-top: 4vh;
+}
+
+.dropLook1{
+
+    position: relative;
+}
+
+.dropLook1:hover .dropMenu1{
+    visibility: visible;
+    margin-top: 4vh;
+}
+
+.dropBlog1{
+
+    position: relative;
+}
+
+.dropBlog1:hover .dropMenu5{
+    visibility: visible;
+    margin-top: 4vh;
+}
+
+.dropMenu5{
+
+    height: 43vh;
+    width: 20vw;
+    border: 1px solid rgb(202, 195, 195);
+    background: #ffffff;
+    margin-left: -2vw;
+    visibility: hidden;
+    margin-top:10vh;
+    position: absolute;
+    transition: all 0.34s;
+
+}
+
+.dropChild1{
+
+    position: relative;
+}
+
+.dropMenu6{
+
+    height: 123vh;
+    width: 20vw;
+    border: 1px solid rgb(202, 195, 195);
+    background: #ffffff;
+    margin-left: -2vw;
+    visibility: hidden;
+    margin-top:10vh;
+    position: absolute;
+    transition: all 0.34s;
+
+}
+
+.dropChild1:hover .dropMenu6{
+    visibility: visible;
+    margin-top: 4vh;
+}
+
+.searchBox{
+
+    height: 8vh;
+    width: 6vw;
+    /* border: 2px solid black; */
+    margin-left: 80%;
+    margin-top: -10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#dropIcon1{
+
+    font-size: 1.3em;
+    color: #000;
+    cursor: pointer;
+}
+
+.loveBox{
+
+    height: 8vh;
+    width: 6vw;
+    /* border: 2px solid black; */
+    border-left: 1px solid rgb(73, 69, 69);
+    margin-left: 88%;
+    margin-top: -8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dropTrend1{
+
+    position: relative;
+}
+
+.dropMenu7{
+
+    height: 87vh;
+    width: 98.5vw;
+    border: 1px solid rgb(202, 195, 195);
+    background: #ffffff;
+    margin-left: -51.3vw;
+    visibility: visible;
+    margin-top:10vh;
+    position: absolute;
+    transition: all 0.34s;
+
+}
+
+.dropTrend1:hover .dropMenu7{
+    visibility: visible;
+    margin-top: 4vh;
+}
+
+.dropUl2{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    height: 50%;
+    width: 90%;
+    border: 2px solid black;
+    margin-left: 3vw;
+}
+
+.trendList1{
+
+    height: 80%;
+    width: 10%;
+    border: 2px solid black;
+    
+}
+
+.trendList2{
+
+    height: 80%;
+    width: 14%;
+    border: 2px solid black;
+    
+}
+
+.trendList3{
+
+    height: 80%;
+    width: 35%;
+    border: 2px solid black;
+}
+
+.list1P{
+
+    margin: 12% 15%;
+    font-size: 0.8em;
+}
+
+.list2P{
+
+    margin: 8% 15%;
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
